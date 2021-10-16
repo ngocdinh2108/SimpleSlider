@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <i class="fas fa-chevron-left slider-icon slider-icon-left"></i>
+      <div class="slider-wrapper">
+        <ul class="slider-main">
+          <li class="slider-item">
+            <img
+              src="https://images.unsplash.com/photo-1627737649244-ec89568593f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80"
+              alt=""
+              srcset=""
+            />
+          </li>
+          <li class="slider-item">
+            <img
+              src="https://images.unsplash.com/photo-1606501491472-ec5dba8fbc76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80"
+              alt=""
+              srcset=""
+            />
+          </li>
+          <li class="slider-item">
+            <img
+              src="https://images.unsplash.com/photo-1600173661937-096d1a7322c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              alt=""
+              srcset=""
+            />
+          </li>
+          <li class="slider-item">
+            <img
+              src="https://images.unsplash.com/photo-1630587325095-bb7acffacb59?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              alt=""
+              srcset=""
+            />
+          </li>
+          <li class="slider-item">
+            <img
+              src="https://images.unsplash.com/photo-1630361102412-bd7ed8710307?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80"
+              alt=""
+              srcset=""
+            />
+          </li>
+        </ul>
+      </div>
+      <i class="fas fa-chevron-right slider-icon slider-icon-right"></i>
+      <ul class="slider-dots">
+        <li class="slider-dot active" data-dot="1"></li>
+        <li class="slider-dot" data-dot="2"></li>
+        <li class="slider-dot" data-dot="3"></li>
+        <li class="slider-dot" data-dot="4"></li>
+        <li class="slider-dot" data-dot="5"></li>
+      </ul>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
